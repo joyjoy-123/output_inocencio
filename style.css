@@ -1,0 +1,42 @@
+/* Style the navigation bar */
+.navbar {
+  background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045); /* Gradient background */
+  overflow: hidden;
+  text-align: center; /* Center the links */
+  border-radius: 10px; /* Rounded corners */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Custom font */
+  color: white;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  display: inline-block; /* Display links horizontally */
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 20px; /* Larger font size */
+  font-weight: bold; /* Bold text */
+  letter-spacing: 1px; /* Spacing between letters */
+  text-transform: uppercase; /* Uppercase text */
+  transition: transform 0.3s, background-color 0.3s; /* Smooth transitions */
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background on hover */
+  transform: scale(1.1); /* Scale the link on hover */
+}
+
+/* Style the page content */
+.content {
+  background-image: url('/storage/emulated/0/Website/3df1839fcad8f2525b2b0bc9e4b4b6c4.jpg'); /* Path to your background image */
+  background-size: cover; /* Cover the entire container */
+  background-repeat: no-repeat; /* No repeat */
+  padding: 20px;
+  text-align: center;
+  color: white;
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a box shadow */
+}
